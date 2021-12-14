@@ -21,7 +21,7 @@ setup(
     install_requires = [
         'colander',
         'requests',
-        'eosio_signer @ git+ssh://git@github.com/bullish-exchange/python-signer@main#egg=eosio_signer'
+        'eosio_signer @ git+https://github.com/bullish-exchange/python-signer@main#egg=eosio_signer'
     ],
     entry_points={
     })
